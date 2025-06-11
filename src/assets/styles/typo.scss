@@ -1,42 +1,41 @@
 @font-face {
-    font-family: 'Solomon Sans';
-    src: url('../../assets/fonts/Solomon-Sans-Normal.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Solomon Sans';
-    src: url('../../assets/fonts/Solomon-Sans-Bold.otf') format('opentype');
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Solomon Sans';
-    src: url('../../assets/fonts/Solomon-Sans-SemiBold.otf') format('opentype');
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  // Agrega más variantes según lo necesites...
-  
+  font-family: "Solomon Sans";
+  src: url("../../assets/fonts/Solomon-Sans-Normal.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Solomon Sans";
+  src: url("../../assets/fonts/Solomon-Sans-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Solomon Sans";
+  src: url("../../assets/fonts/Solomon-Sans-SemiBold.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+// Agrega más variantes según lo necesites...
 
 $font-base: 16px;
 
-$font-display: 64px;     // 4rem
-$font-h1: 48px;          // 3rem
-$font-h2: 36px;          // 2.25rem
-$font-h3: 28px;          // 1.75rem
-$font-h4: 24px;          // 1.5rem
-$font-subtitle: 18px;    // 1.125rem
-$font-body: 16px;        // 1rem
-$font-body-small: 14px;  // 0.875rem
-$font-caption: 12px;     // 0.75rem
-$font-button: 16px;      // 1rem
-$font-overline: 14px;    // 0.875rem
+$font-display: 64px; // 4rem
+$font-h1: 48px; // 3rem
+$font-h2: 36px; // 2.25rem
+$font-h3: 28px; // 1.75rem
+$font-h4: 24px; // 1.5rem
+$font-subtitle: 18px; // 1.125rem
+$font-body: 16px; // 1rem
+$font-body-small: 14px; // 0.875rem
+$font-caption: 12px; // 0.75rem
+$font-button: 16px; // 1rem
+$font-overline: 14px; // 0.875rem
 
-$font-family-main: 'Solomon Sans', sans-serif;
+$font-family-main: "Solomon Sans", sans-serif;
 
 .display {
   font-size: $font-display;
@@ -83,7 +82,7 @@ $font-family-main: 'Solomon Sans', sans-serif;
 .body {
   font-size: $font-body;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.2;
   font-family: $font-family-main;
 }
 
