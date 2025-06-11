@@ -1,0 +1,85 @@
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+@mixin spacing-classes($name, $value) {
+  .spacing-#{$name}-top {
+    margin-top: $value !important;
+  }
+  .spacing-#{$name}-right {
+    margin-right: $value !important;
+  }
+  .spacing-#{$name}-bottom {
+    margin-bottom: $value !important;
+  }
+  .spacing-#{$name}-left {
+    margin-left: $value !important;
+  }
+  .spacing-#{$name}-all {
+    margin: $value !important;
+  }
+}
+
+@include spacing-classes(xs, $spacing-xs);
+@include spacing-classes(sm, $spacing-sm);
+@include spacing-classes(md, $spacing-md);
+@include spacing-classes(lg, $spacing-lg);
+@include spacing-classes(xl, $spacing-xl);
+
+$padding-xs: 4px;
+$padding-sm: 8px;
+$padding-md: 12px;
+$padding-lg: 16px;
+$padding-xl: 20px;
+$padding-xxl: 24px;
+$padding-xxxl: 32px;
+
+@mixin padding-classes($name, $value) {
+  .padding-#{$name}-top {
+    padding-top: $value !important;
+  }
+  .padding-#{$name}-right {
+    padding-right: $value !important;
+  }
+  .padding-#{$name}-bottom {
+    padding-bottom: $value !important;
+  }
+  .padding-#{$name}-left {
+    padding-left: $value !important;
+  }
+  .padding-#{$name}-all {
+    padding: $value !important;
+  }
+}
+
+@include padding-classes(xs, $padding-xs);
+@include padding-classes(sm, $padding-sm);
+@include padding-classes(md, $padding-md);
+@include padding-classes(lg, $padding-lg);
+@include padding-classes(xl, $padding-xl);
+@include padding-classes(xxl, $padding-xxl);
+@include padding-classes(xxxl, $padding-xxxl);
+
+$radius-xs: 4px;
+$radius-sm: 8px;
+$radius-md: 16px;
+$radius-lg: 24px;
+$radius-xl: 40px;
+
+.radius-xs {
+  border-radius: $radius-xs !important;
+}
+.radius-sm {
+  border-radius: $radius-sm !important;
+}
+.radius-md {
+  border-radius: $radius-md !important;
+}
+.radius-lg {
+  border-radius: $radius-lg !important;
+}
+.radius-xl {
+  border-radius: $radius-xl !important;
+}

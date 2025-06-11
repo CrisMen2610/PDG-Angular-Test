@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Solomon Sans';
+    src: url('../../assets/fonts/Solomon-Sans-Normal.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Solomon Sans';
+    src: url('../../assets/fonts/Solomon-Sans-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Solomon Sans';
+    src: url('../../assets/fonts/Solomon-Sans-SemiBold.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  // Agrega más variantes según lo necesites...
+  
+
+$font-base: 16px;
+
+$font-display: 64px;     // 4rem
+$font-h1: 48px;          // 3rem
+$font-h2: 36px;          // 2.25rem
+$font-h3: 28px;          // 1.75rem
+$font-h4: 24px;          // 1.5rem
+$font-subtitle: 18px;    // 1.125rem
+$font-body: 16px;        // 1rem
+$font-body-small: 14px;  // 0.875rem
+$font-caption: 12px;     // 0.75rem
+$font-button: 16px;      // 1rem
+$font-overline: 14px;    // 0.875rem
+
+$font-family-main: 'Solomon Sans', sans-serif;
+
+.display {
+  font-size: $font-display;
+  font-weight: bold;
+  line-height: 1.1;
+  font-family: $font-family-main;
+}
+
+.heading-1 {
+  font-size: $font-h1;
+  font-weight: bold;
+  line-height: 1.15;
+  font-family: $font-family-main;
+}
+
+.heading-2 {
+  font-size: $font-h2;
+  font-weight: bold;
+  line-height: 1.2;
+  font-family: $font-family-main;
+}
+
+.heading-3 {
+  font-size: $font-h3;
+  font-weight: bold;
+  line-height: 1.25;
+  font-family: $font-family-main;
+}
+
+.heading-4 {
+  font-size: $font-h4;
+  font-weight: bold;
+  line-height: 1.3;
+  font-family: $font-family-main;
+}
+
+.subtitle {
+  font-size: $font-subtitle;
+  font-weight: normal;
+  line-height: 1.4;
+  font-family: $font-family-main;
+}
+
+.body {
+  font-size: $font-body;
+  font-weight: normal;
+  line-height: 1.5;
+  font-family: $font-family-main;
+}
+
+.body-small {
+  font-size: $font-body-small;
+  font-weight: normal;
+  line-height: 1.5;
+  font-family: $font-family-main;
+}
+
+.caption {
+  font-size: $font-caption;
+  font-weight: normal;
+  line-height: 1.4;
+  font-family: $font-family-main;
+}
+
+.button {
+  font-size: $font-button;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: none;
+  font-family: $font-family-main;
+}
+
+.overline {
+  font-size: $font-overline;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-family: $font-family-main;
+}
+
+body {
+  font-family: $font-family-main;
+}

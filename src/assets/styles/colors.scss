@@ -1,0 +1,101 @@
+
+$eb-100: #E5F0FE;
+$eb-200: #C2D1E9;
+$eb-300: #99B3DA;
+$eb-400: #6695CB;
+$eb-500: #0041A3;
+$eb-600: #003482; 
+$eb-700: #002A68; 
+
+$eficacia-blue: (
+  100: $eb-100,
+  200: $eb-200,
+  300: $eb-300,
+  400: $eb-400,
+  500: $eb-500,
+  600: $eb-600,
+  700: $eb-700,
+);
+
+.bg-eb-100 { background-color: $eb-100 !important; }
+.bg-eb-200 { background-color: $eb-200 !important; }
+.bg-eb-300 { background-color: $eb-300 !important; }
+.bg-eb-400 { background-color: $eb-400 !important; }
+.bg-eb-500 { background-color: $eb-500 !important; }
+.bg-eb-600 { background-color: $eb-600 !important; }
+.bg-eb-700 { background-color: $eb-700 !important; }
+
+.text-eb-100 { color: $eb-100 !important; }
+.text-eb-200 { color: $eb-200 !important; }
+.text-eb-300 { color: $eb-300 !important; }
+.text-eb-400 { color: $eb-400 !important; }
+.text-eb-500 { color: $eb-500 !important; }
+.text-eb-600 { color: $eb-600 !important; }
+.text-eb-700 { color: $eb-700 !important; }
+
+// Paleta de tonos neutros (Neutral Shades - NS)
+$ns-white: #ffffff;
+$ns-100: #E6E8EA;
+$ns-200: #AAAEB1;
+$ns-300: #82898D;
+$ns-400: #70777B;
+$ns-500: #464B4D;
+$ns-600: #242627;
+
+$neutral-shades: (
+  white: $ns-white,
+  100: $ns-100,
+  200: $ns-200,
+  300: $ns-300,
+  400: $ns-400,
+  500: $ns-500,
+  600: $ns-600,
+);
+
+.bg-ns-white { background-color: $ns-white !important; }
+.bg-ns-100   { background-color: $ns-100 !important; }
+.bg-ns-200   { background-color: $ns-200 !important; }
+.bg-ns-300   { background-color: $ns-300 !important; }
+.bg-ns-400   { background-color: $ns-400 !important; }
+.bg-ns-500   { background-color: $ns-500 !important; }
+.bg-ns-600   { background-color: $ns-600 !important; }
+
+.text-ns-white { color: $ns-white !important; }
+.text-ns-100   { color: $ns-100 !important; }
+.text-ns-200   { color: $ns-200 !important; }
+.text-ns-300   { color: $ns-300 !important; }
+.text-ns-400   { color: $ns-400 !important; }
+.text-ns-500   { color: $ns-500 !important; }
+.text-ns-600   { color: $ns-600 !important; }
+
+
+// Paleta de Eficacia White
+$ns-eficacia-white: #F4F7F9;
+
+.bg-eficacia-white { background-color: $ns-eficacia-white !important; }
+
+.text-eficacia-white { color: $ns-eficacia-white !important; }
+
+// Paleta de Status Hues (SH) - Colores semánticos para estados clave
+$sh-blue-500:   #3F51B5;
+$sh-yellow-500: #FFCD00;
+$sh-teal-500:   #3BD4AE;
+$sh-red-500:    #CA4949;
+
+$status-hues: (
+  blue-500:   $sh-blue-500,
+  yellow-500: $sh-yellow-500,
+  teal-500:   $sh-teal-500,
+  red-500:    $sh-red-500,
+);
+
+.bg-sh-blue-500   { background-color: $sh-blue-500 !important; }
+.bg-sh-yellow-500 { background-color: $sh-yellow-500 !important; }
+.bg-sh-teal-500   { background-color: $sh-teal-500 !important; }
+.bg-sh-red-500    { background-color: $sh-red-500 !important; }
+
+// Clases utilitarias para texto
+.text-sh-blue-500   { color: $sh-blue-500 !important; }
+.text-sh-yellow-500 { color: $sh-yellow-500 !important; }
+.text-sh-teal-500   { color: $sh-teal-500 !important; }
+.text-sh-red-500    { color: $sh-red-500 !important; }
