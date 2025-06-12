@@ -7,8 +7,8 @@ import { Card } from '../components/card/card.component';
   standalone: true,
   imports: [Card],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrl: './app.scss',
 })
 export class App {
-  protected title = 'PDG-Angular-Test';
+  protected title = 'PDG-Angular-Test-Finished';
 }
