@@ -15,7 +15,10 @@
     />
   </div>
   <div *ngIf="type === inputTypes.TEXTAREA" class="text-input">
-    <label for="nombre-medicion" class="body text-eb-500 spacing-xs-bottom">
+    <label
+      for="descripcion-medicion"
+      class="body text-eb-500 spacing-xs-bottom"
+    >
       Descripción de la medición
       <ng-container *ngIf="!required;else requiredSpan"></ng-container>
     </label>
@@ -29,7 +32,7 @@
     ></textarea>
   </div>
   <div *ngIf="type === inputTypes.DROPDOWN" class="text-input">
-    <label for="nombre-medicion" class="body text-eb-500 spacing-xs-bottom">
+    <label for="estados-medicion" class="body text-eb-500 spacing-xs-bottom">
       Estado
       <ng-container *ngIf="!required;else requiredSpan"></ng-container>
     </label>
@@ -43,20 +46,15 @@
       <option value="desactivado">Desactivado</option>
     </select>
   </div>
-  <div *ngIf="type === inputTypes.CHECKBOX" class="text-input">
-    <label for="nombre-medicion" class="body text-eb-500 spacing-xs-bottom">
-      Implementación obligatoria
-      <ng-container *ngIf="!required;else requiredSpan"></ng-container>
+  <div
+    *ngIf="type === inputTypes.CHECKBOX"
+    class="text-input spacing-lg-top spacing-lg-bottom"
+  >
+    <label class="container body text-ns-600"
+      >Implementación obligatoria
+      <input type="checkbox" />
+      <span class="checkmark"></span>
     </label>
-    <select
-      title="estados-medicion"
-      class="body text-eb-300 padding-sm-all radius-xs"
-      name="estados-medicion"
-      id="estados-medicion"
-    >
-      <option value="activo">Activo</option>
-      <option value="desactivado">Desactivado</option>
-    </select>
   </div>
 </div>
 <ng-template #requiredSpan> <span style="color: #e53935">*</span> </ng-template>
