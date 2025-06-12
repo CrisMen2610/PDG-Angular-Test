@@ -1,0 +1,62 @@
+<div class="spacing-md-bottom">
+  <div *ngIf="type === inputTypes.TEXT" class="text-input">
+    <label for="nombre-medicion" class="body text-eb-500 spacing-xs-bottom">
+      Nombre de la medición
+      <ng-container *ngIf="!required;else requiredSpan"></ng-container>
+    </label>
+    <input
+      type="text"
+      class="body padding-sm-all radius-xs"
+      id="nombre-medicion"
+      name="nombre-medicion"
+      placeholder="Inserte el nombre"
+      required
+      autocomplete="off"
+    />
+  </div>
+  <div *ngIf="type === inputTypes.TEXTAREA" class="text-input">
+    <label for="nombre-medicion" class="body text-eb-500 spacing-xs-bottom">
+      Descripción de la medición
+      <ng-container *ngIf="!required;else requiredSpan"></ng-container>
+    </label>
+    <textarea
+      id="descripcion-medicion"
+      name="descripcion-medicion"
+      class="body padding-sm-all radius-xs"
+      placeholder="Inserte comentarios u observaciones"
+      rows="4"
+      cols="30"
+    ></textarea>
+  </div>
+  <div *ngIf="type === inputTypes.DROPDOWN" class="text-input">
+    <label for="nombre-medicion" class="body text-eb-500 spacing-xs-bottom">
+      Estado
+      <ng-container *ngIf="!required;else requiredSpan"></ng-container>
+    </label>
+    <select
+      title="estados-medicion"
+      class="body text-eb-300 padding-sm-all radius-xs"
+      name="estados-medicion"
+      id="estados-medicion"
+    >
+      <option value="activo">Activo</option>
+      <option value="desactivado">Desactivado</option>
+    </select>
+  </div>
+  <div *ngIf="type === inputTypes.CHECKBOX" class="text-input">
+    <label for="nombre-medicion" class="body text-eb-500 spacing-xs-bottom">
+      Implementación obligatoria
+      <ng-container *ngIf="!required;else requiredSpan"></ng-container>
+    </label>
+    <select
+      title="estados-medicion"
+      class="body text-eb-300 padding-sm-all radius-xs"
+      name="estados-medicion"
+      id="estados-medicion"
+    >
+      <option value="activo">Activo</option>
+      <option value="desactivado">Desactivado</option>
+    </select>
+  </div>
+</div>
+<ng-template #requiredSpan> <span style="color: #e53935">*</span> </ng-template>

@@ -78,6 +78,12 @@ $font-family-main: "Solomon Sans", sans-serif;
   line-height: 1.4;
   font-family: $font-family-main;
 }
+.subtitle-bold {
+  font-size: $font-body;
+  font-weight: bold;
+  line-height: 1.4;
+  font-family: $font-family-main;
+}
 
 .body {
   font-size: $font-body;

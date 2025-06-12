@@ -1,5 +1,23 @@
-<div class="card-container bg-eficacia-white radius-sm padding-xl-all spacing-xl-all bg-eficacia-white">
-<div class="card-container-header">
+<div
+  class="card-container bg-eficacia-white radius-sm padding-xl-all spacing-xl-all bg-eficacia-white"
+>
+  <div class="card-container-header">
     <app-header></app-header>
-</div>
+    <form action="" class="spacing-lg-top">
+      <app-input-component
+        [type]="inputTypes.TEXT"
+        [required]="true"
+      ></app-input-component>
+      <app-input-component
+        [type]="inputTypes.TEXTAREA"
+        [required]="false"
+      ></app-input-component>
+      <app-input-component
+        [type]="inputTypes.DROPDOWN"
+        [required]="true"
+      ></app-input-component>
+
+      <h2 class="subtitle-bold text-eb-500">Configuración especial</h2>
+    </form>
+  </div>
 </div>

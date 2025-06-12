@@ -1,0 +1,15 @@
+.text-input {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea,
+select {
+  border-color: #a9adb0;
+  border-width: 1px;
+  border-style: solid;
+  &::placeholder {
+    color: #0041a380;
+  }
+}
