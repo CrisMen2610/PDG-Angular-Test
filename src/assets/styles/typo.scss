@@ -114,6 +114,14 @@ $font-family-main: "Solomon Sans", sans-serif;
   font-family: $font-family-main;
 }
 
+.button-small {
+  font-size: $font-button;
+  font-weight: 500;
+  line-height: 1.2;
+  text-transform: none;
+  font-family: $font-family-main;
+}
+
 .overline {
   font-size: $font-overline;
   font-weight: normal;
